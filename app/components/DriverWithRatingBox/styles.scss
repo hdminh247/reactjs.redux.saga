@@ -1,0 +1,108 @@
+/*
+*
+* DriverWithRatingBox styles
+*
+*/
+.driver-with-rating-box-wrapper {
+
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: var(--black);
+    margin-bottom: 17px;
+  }
+
+  .bg-grey {
+    padding: 22px 20px;
+    text-align: center;
+    min-height: 450px;
+  }
+
+  .image-wrapper {
+    margin-bottom: 7px;
+
+    .avatar {
+      width: 60px;
+      height: 60px;
+      margin: auto;
+    }
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: var(--black);
+    margin-bottom: 47px;
+  }
+
+  .line-break {
+    height: 1px;
+    background-color: rgba(#979797, 0.2);
+  }
+
+  .rating {
+    text-align: left;
+
+    .d-table {
+      width: 100%;
+      margin-bottom: 17px;
+    }
+
+    .total {
+      font-size: 20px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      color: var(--black);
+    }
+
+    .rating-value {
+      font-size: 20px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      text-align: right;
+      color: var(--black);
+    }
+
+    .content {
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: var(--black);
+    }
+  }
+
+  .not-rating {
+    img {
+      margin-bottom: 14px;
+    }
+
+    .text {
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--black);
+      margin-bottom: 18px;
+    }
+  }
+}

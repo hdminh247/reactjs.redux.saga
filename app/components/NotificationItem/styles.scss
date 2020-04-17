@@ -1,0 +1,22 @@
+/*
+*
+* NotificationItem styles
+*
+*/
+.notification-item-wrapper {
+  display: table;
+
+  .icon {
+    &.unread {
+      color: #009af7;
+    }
+  }
+
+  .link-blue {
+    color: #009af7;
+
+    &:hover {
+      color: var(--black);
+    }
+  }
+}

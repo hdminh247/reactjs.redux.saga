@@ -1,0 +1,72 @@
+/*
+*
+* CarManagement styles
+*
+*/
+.car-management-wrapper {
+  padding-top: 38px;
+  padding-bottom: 30px;
+
+  .nav-link {
+    padding: 0;
+  }
+
+  .car-info {
+    padding: 25px;
+
+    .name {
+      font-size: 32px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      color: var(--black);
+    }
+
+    .category {
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 14px;
+    }
+
+    .line-break {
+      height: 1px;
+      background-color: #979797;
+      margin-bottom: 10px;
+    }
+
+    .detail {
+      margin-bottom: 30px;
+    }
+
+    .total {
+      margin-top: 8px;
+
+      &-title {
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      &-value {
+        font-size: 40px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #009af7;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import '../../css/variable';
+
+.location-wrapper {
+  .input-form {
+    padding-right: 26px !important;
+    &.error-form {
+      border: solid 1px #f65659;
+    }
+  }
+
+  .label {
+    margin-bottom: 50px;
+
+    span {
+      font-size: 9px;
+      line-height: 1.56;
+      letter-spacing: 1.3px;
+      color: #757575;
+      text-transform: uppercase;
+    }
+  }
+
+}
+
+.pac-container {
+
+}

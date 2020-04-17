@@ -1,0 +1,23 @@
+/*
+*
+* AccountBankDetail styles
+*
+*/
+.account-bank-detail {
+  .account-bank-title {
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--black);
+    margin-bottom: 12px;
+  }
+  .line-break {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(#979797, 0.2);
+    margin-bottom: 10px;
+  }
+}

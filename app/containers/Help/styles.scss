@@ -1,0 +1,58 @@
+/*
+*
+* Help styles
+*
+*/
+@import "../../css/variable";
+
+.help-wrapper {
+  background-image: url("../../images/web/bg-help.jpg");
+
+  .left-wrapper {
+    padding-top: 403px;
+    padding-bottom: 81px;
+    display: inline-block;
+    float: none;
+
+    .title {
+      margin-bottom: 10px;
+    }
+
+    .line-break {
+      height: 1px;
+      opacity: 0.2;
+      border: solid 1px var(--white);
+      margin-bottom: 13px;
+    }
+
+    .contact {
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: var(--white);
+    }
+
+    .phone {
+      font-size: 36px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      color: var(--white);
+    }
+  }
+
+  .right-wrapper {
+    float: right;
+    padding-bottom: 20px;
+
+    .image-list-wrapper {
+      min-height: 130px;
+      margin-bottom: 36px;
+    }
+  }
+}

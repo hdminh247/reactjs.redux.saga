@@ -1,0 +1,83 @@
+@import "app/css/variable";
+
+.form-group-content {
+  &.more-padding {
+    padding-bottom: 14px;
+  }
+
+  .form-group-title {
+    margin-bottom: 30px;
+  }
+
+  .page-info {
+    margin-bottom: 22px;
+
+    .note-title {
+      line-height: 1.31;
+      letter-spacing: 0.3px;
+    }
+
+    .note-content {
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.3px;
+      margin-top: 11px;
+    }
+  }
+
+  .form-input {
+    margin-bottom: 14px;
+  }
+
+  .forgot-style {
+    width: 50%;
+    color: $color-violet;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 3.2;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto 27px;
+    padding: 0;
+
+    &.security {
+      margin: 0 auto 13px;
+      color: $color-medium-purple;
+    }
+
+    &:hover {
+      color: #625a87; //font-weight: 600;
+    }
+
+    &:active {
+      color: #453b70; //font-weight: 600;
+    }
+
+    &.disabled {
+      color: #c8bdea;
+
+      &:hover {
+        color: #c8bdea; //font-weight: 500;
+      }
+
+      &:active {
+        color: #c8bdea; //font-weight: 500;
+      }
+    }
+  }
+}
+
+.resend-time {
+  text-align: center;
+  color: $color-violet;
+}
+
+.security-page {
+  .input-form {
+    color: #212121;
+  }
+}

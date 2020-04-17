@@ -1,0 +1,32 @@
+/*
+*
+* Blog styles
+*
+*/
+.blog-wrapper {
+  padding-top: 70px;
+
+  .blog-item-wrapper {
+    margin-bottom: 60px;
+
+    &.is-top {
+      .image-wrapper {
+        min-height: 300px;
+      }
+
+      .content {
+        margin-bottom: 85px;
+      }
+    }
+
+    .image-wrapper {
+      height: 205px;
+    }
+
+    .content {
+
+      line-height: 30px;
+      height: 120px;
+    }
+  }
+}

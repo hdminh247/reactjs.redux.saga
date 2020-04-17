@@ -1,0 +1,24 @@
+@import "../../css/variable";
+
+.footer-main {
+  background-color: var(--azure);
+  color: $color-white;
+  padding: 55px 0;
+
+  .nav-link {
+    padding: 0;
+    margin-right: 63px;
+    color: $color-white;
+    &:hover{
+      color: var(--black);
+    }
+  }
+
+
+  .social {
+    i {
+      font-size: 20px;
+      margin-right: 18px;
+    }
+  }
+}

@@ -1,0 +1,158 @@
+@import "../../css/variable";
+
+.payout-wrapper {
+  .offset-3 {
+    max-width: 50%;
+    margin-left: 0;
+  }
+
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--black);
+  }
+
+  .btn-edit {
+    position: absolute;
+    height: 40px;
+    right: 0;
+    color: #009af7;
+    background-color: #f4f4f6;
+    padding: 9px;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+
+    i {
+      font-size: 18px;
+      margin-right: 6px;
+    }
+  }
+
+  .content-item {
+    margin-bottom: 50px;
+
+    .card-item-wrapper {
+      .card-item {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+
+        .checkbox-item {
+          .icon-ellypsis {
+            color: #cccccc;
+            margin-left: 85px;
+          }
+
+          font-size: 20px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.2;
+          letter-spacing: normal;
+          color: var(--black);
+        }
+      }
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: var(--black);
+    }
+
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--black);
+
+    label {
+      font-size: 12px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: var(--black);
+    }
+
+    input,
+    .StripeElement {
+      display: block;
+      margin: 6px 0 15px 0;
+      padding: 10px 14px;
+      font-size: 1em;
+      font-family: "Source Code Pro", monospace;
+      border: 0;
+      outline: 0;
+      border-radius: 4px;
+      background: var(--pale-grey);;
+    }
+
+    input::placeholder {
+      color: #aab7c4;
+    }
+
+    input:focus,
+    .StripeElement--focus {
+      -webkit-transition: all 150ms ease;
+      transition: all 150ms ease;
+    }
+
+    .StripeElement.IdealBankElement,
+    .StripeElement.PaymentRequestButton {
+      padding: 0;
+    }
+  }
+
+  .account-bank-detail {
+    .title {
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: var(--black);
+    }
+
+    .content {
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: var(--black);
+    }
+  }
+
+  .edit {
+    .sub-title {
+      margin-bottom: 10px;
+    }
+
+    .footer-submit {
+      margin-top: 35px;
+    }
+
+    .btn-submit {
+      width: 50%;
+      background-color: var(--bright-orange);
+    }
+  }
+}

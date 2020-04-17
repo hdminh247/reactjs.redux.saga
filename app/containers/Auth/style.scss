@@ -1,0 +1,82 @@
+@import "../../css/variable";
+
+.authenticate-wrapper {
+  padding: 31px 68px 32px;
+  background-image: url("../../images/web/bg-texture-2.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+
+  .left-wrapper {
+    width: 484px;
+    float: left;
+    padding: 28px 0;
+
+    .logo {
+      margin-bottom: 28px;
+    }
+
+    .title {
+      color: $color-white;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 1.25;
+      letter-spacing: normal;
+    }
+
+    .sub-title {
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: var(--white);
+
+    }
+  }
+
+  .right-wrapper {
+    width: 537px;
+    background-color: $color-white;
+    border-radius: 5px;
+    margin-left: auto;
+    padding: 29px 0px 0px;
+    text-align: center;
+
+    .form-input {
+      margin-bottom: 16px;
+
+      .input-form {
+        color: #212121;
+      }
+    }
+
+    .form-login {
+      .base-checkbox-circle {
+        margin-bottom: 18px;
+        line-height: 24px;
+        padding: 2px;
+      }
+    }
+
+    .link-route {
+      color: $color-primary;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: right;
+      cursor: pointer;
+      margin-bottom: 14px;
+
+      &:hover {
+        color: #0F71B5;
+      }
+    }
+
+    .link-other-page {
+      font-weight: bold;
+      margin-bottom: 21px;
+    }
+  }
+}

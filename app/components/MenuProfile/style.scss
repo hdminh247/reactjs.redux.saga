@@ -1,0 +1,47 @@
+@import "../../css/variable";
+
+.menu-user-profile-wrapper {
+  .user-profile-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: var(--black);
+    margin-bottom: 37px;
+  }
+
+  .vertical-menu {
+    overflow: auto;
+
+    a {
+      font-size: 12px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 18px;
+      letter-spacing: normal;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    span {
+      display: none;
+    }
+
+    li:hover {
+      a {
+        color: #009af7;
+      }
+
+      span {
+        color: #009af7;
+        display: inline;
+      }
+    }
+
+    li {
+      margin-bottom: 23px;
+    }
+  }
+}

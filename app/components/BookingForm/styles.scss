@@ -1,0 +1,278 @@
+@import "../../css/variable";
+
+.booking-form-wrapper {
+  background-color: $color-white;
+  max-width: 557px;
+  border-radius: 4px;
+  box-shadow: 0 12px 26px 0 rgba(0, 0, 0, 0.1);
+  //max-height: 903px;
+  overflow: auto;
+
+  .react-datepicker__header {
+    &.react-datepicker__header--time {
+      display: none;
+    }
+  }
+
+  .react-datepicker__time {
+    width: 140px;
+
+    .react-datepicker__time-list::-webkit-scrollbar {
+      display: none;
+    }
+
+    .react-datepicker__time-box {
+      .react-datepicker__time-list {
+        overflow-x: visible;
+        padding: 0 10px;
+
+        &-item {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+          text-align: left;
+          box-shadow: inset 0 -1px 0 0 #e0e1e4;
+
+          &--selected {
+            background-color: rgba(#0097ff, 0.1) !important;
+            color: #0097ff !important;
+          }
+        }
+      }
+    }
+
+  }
+
+  .base-button {
+    .btn-primary {
+      height: 40px;
+      font-size: 16px;
+    }
+  }
+
+  .selection-wrapper {
+    .input-wrapper {
+      .icon-prepend {
+        i {
+          font-size: 20px;
+          color: var(--bluey-grey);
+        }
+      }
+    }
+  }
+
+  .input-form-wrapper {
+    .input-group {
+      .input-group-prepend {
+        .input-group-text {
+          i {
+            font-size: 20px;
+            color: var(--bluey-grey);
+          }
+
+          .icon-coupon-percent {
+            font-size: 16px;
+          }
+
+          .icon-circle1 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .form {
+    padding: 25px 25px;
+  }
+
+  .line-break {
+    width: 100%;
+    height: 1px;
+    object-fit: contain;
+    background-color: var(--light-periwinkle);
+    margin-bottom: 20px;
+  }
+
+  .location-wrapper {
+    .address-loop {
+      position: relative;
+
+      &:before {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 30px;
+        background-color: rgba(#979797, 0.4);
+        position: absolute;
+        z-index: 1;
+        left: 21px;
+        top: -25px;
+      }
+    }
+  }
+
+  .add-button {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: var(--azure);
+    margin-bottom: 20px;
+    cursor: pointer;
+    user-select: none;
+    &:hover {
+      color: var(--black);
+    }
+  }
+
+  .no-click {
+    pointer-events: none;
+  }
+
+  .category {
+    &-list {
+      color: rgba($color-black, 0.5);
+      border-bottom: 1px solid rgba(66, 66, 66, 0.5);
+      margin-bottom: 29px;
+    }
+
+    &-item {
+      cursor: pointer;
+
+      .icon {
+        font-size: 24px;
+      }
+
+      &.active {
+        color: var(--azure);
+        position: relative;
+
+        &:after {
+          content: "";
+          background-color: var(--azure);
+          margin: auto;
+          display: block;
+          width: 30px;
+          height: 2px;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          position: absolute;
+          left: 50%;
+          bottom: -1px;
+          transform: translate(-50%, 0);
+        }
+      }
+    }
+
+    &-name {
+      font-weight: bold;
+      font-size: 12px;
+      margin-bottom: 9px;
+    }
+
+    &-img {
+      width: 24px;
+      height: 24px;
+      object-fit: contain;
+      margin-bottom: 5px;
+
+      img {
+      }
+    }
+  }
+
+  .accordion-radio-list-wrapper {
+    margin-top: -10px;
+  }
+
+  .show-recommend-ride {
+    margin-bottom: 20px;
+
+    .recommend-ride-item {
+      margin-bottom: 10px;
+    }
+  }
+
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: var(--black);
+    margin-bottom: 20px;
+  }
+
+  .title-sub {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: var(--black);
+  }
+
+  .checkin-wrapper {
+    .error-text {
+      margin-bottom: 8px;
+    }
+  }
+
+  .date-picker-wrapper {
+    margin-bottom: 15px;
+  }
+
+  .estimate {
+    &-upper-section {
+      margin-bottom: 22px;
+    }
+
+    &-price {
+      margin-bottom: 22px;
+    }
+
+    &-title {
+      font-size: 12px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      color: var(--black);
+    }
+
+    &-response {
+      font-size: 14px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+    }
+
+    &-view-pricing {
+      font-size: 12px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: var(--azure);
+    }
+
+    &-total {
+      font-size: 40px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      text-align: right;
+      color: var(--bright-orange);
+    }
+  }
+}

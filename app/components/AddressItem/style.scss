@@ -1,0 +1,14 @@
+@import "../../css/variable";
+
+.address-item-wrapper {
+
+  margin-bottom: 20px;
+
+  + .address-item-wrapper {
+    padding-top: 16px;
+  }
+
+  &.deleted {
+    display: none;
+  }
+}

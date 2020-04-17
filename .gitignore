@@ -1,0 +1,32 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+package-lock.json
+.vscode
+.prettierrc
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+
+# Phonegap
+.compress
+phonegap/*.zip
+phonegap/platforms/**
+phonegap/CONTRIBUTING.md
+phonegap/plugins/**
+phonegap/README.md
+phonegap/www/**
+phonegap/info.txt
+phonegap/package-lock.json
+phonegap/.gradle/
+phonegap/package.json
+
+#Dev Image
+app/images/demo/*.png
+app/images/demo/*.jpeg
+app/images/demo/*.pdf
+.vscode

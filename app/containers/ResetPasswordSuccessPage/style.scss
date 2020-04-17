@@ -1,0 +1,38 @@
+@import "../../css/variable";
+
+.reset-password-success {
+  background-color: $color-white;
+  border-radius: 0.25rem;
+  text-align: center;
+  padding: 20px 0;
+
+  .logo {
+    width: 30%;
+    margin: 0 auto 14px;
+  }
+
+  .title {
+    span {
+      color: #2a2a2c;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+  }
+
+  .description {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    span {
+      color: #212121;
+      font-size: 14px;
+    }
+  }
+
+  .back-login {
+    margin-top: 1rem;
+    width: 11.75rem;
+    height: 3rem;
+    font-weight: 500;
+  }
+}

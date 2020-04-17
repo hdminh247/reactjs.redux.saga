@@ -1,0 +1,291 @@
+@charset "UTF-8";
+/**
+ * style.scss
+ *
+ * This is where global styles should be declared using SCSS
+ *
+ * Note:
+ *  - 'global-styles.js' also declare global styles but using 'styled-component'.
+ *  - Styles declared in 'global-styles.js' will have lower priority than this file.
+ */
+// CSS OF LIBRARY
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~react-datepicker/dist/react-datepicker.css';
+@import '~pure-react-carousel/dist/react-carousel.es.css';
+@import "~react-bootstrap-table/css/react-bootstrap-table.css";
+@import "~react-image-crop/dist/ReactCrop.css";
+@import "~react-toastify/dist/ReactToastify.css";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import '~react-toastify/dist/ReactToastify.css';
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+// CSS CUSTOM
+@import 'variable';
+@import 'font';
+@import 'fonticon';
+@import 'color';
+@import 'button';
+@import 'custom';
+@import 'animate';
+@import 'responsive';
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+
+ul {
+  padding: 0;
+}
+
+// Focus input need border
+input,
+button.dropdown-toggle,
+.btn-secondary,
+.dropdown-toggle.btn-secondary,
+textarea.form-control {
+  &:not([class*='error']) {
+    &:focus,
+    &:hover {
+      //box-shadow: 0 0 0 2px transparent !important; //no inset for ie
+      //-webkit-box-shadow: inset 0 0 0 2px transparent !important;
+      //-moz-box-shadow: inset 0 0 0 2px transparent !important;
+      /* All the borders by using the spread properties */
+      outline: none !important;
+      border-color: transparent;
+    }
+  }
+}
+
+//modal backdrop
+.modal-backdrop.show {
+  opacity: 0.6;
+}
+
+// Fix some browser have blue border, blue outline
+a {
+  color: inherit;
+}
+
+a,
+.form-control,
+.btn,
+button {
+  outline: none !important;
+  box-shadow: none;
+
+  &:active,
+  &:focus,
+  &:hover {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+img {
+  object-fit: cover;
+}
+
+html {
+  //overflow: hidden;
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+}
+
+body {
+  height: 100vh;
+  font-size: 14px;
+  color: $color-black;
+  position: relative;
+
+  //setting font when change locale
+  .thai-mobility {
+    font-family: $font-rbt !important;
+    position: relative;
+
+    &.th {
+      font-family: $font-pridi !important;
+    }
+  }
+}
+
+#app {
+  height: 100%;
+}
+
+.work-break-all {
+  word-break: break-all;
+}
+
+.base-caret[class*='icon-'] {
+  color: $color-white;
+  font-size: (8/$df-fs)*$rem;
+  float: right;
+  line-height: 3;
+}
+
+// Fix for MS Edege remove X icon, clear icon input default display
+input,
+.form-control {
+  &::-ms-clear,
+  &::-ms-reveal {
+    display: none;
+  }
+}
+
+// Place holder for all browser
+input,
+textarea.form-control {
+  &::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: (0.3/$df-fs)*$rem !important;
+    opacity: 1 !important;
+  }
+
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: (0.3/$df-fs)*$rem !important;
+    opacity: 1 !important;
+  }
+
+  &:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: (0.3/$df-fs)*$rem !important;
+    opacity: 1 !important;
+  }
+
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: (0.3/$df-fs)*$rem !important;
+    opacity: 1 !important;
+  }
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield; //Firefox remove spinner
+}
+
+// input[type='text'].hide-password {
+//     font-family: 'asterisk' !important;
+//     font-size: (8/$df-fs)*$rem;
+//     letter-spacing: (2/$df-fs)*$rem;
+//     &::-webkit-input-placeholder {
+//         font-size: (14/$df-fs)*$rem !important;
+//         letter-spacing: (0.3/$df-fs)*$rem !important;
+//         transform: translate(0, (3/$df-fs)*$rem);
+//     }
+//     &::-moz-placeholder {
+//         /* Firefox 19+ */
+//         font-size: (14/$df-fs)*$rem;
+//         letter-spacing: (0.3/$df-fs)*$rem;
+//         transform: translate(0, (3/$df-fs)*$rem);
+//     }
+//     &:-ms-input-placeholder {
+//         /* IE 10+ */
+//         font-size: (14/$df-fs)*$rem;
+//         letter-spacing: (0.3/$df-fs)*$rem;
+//         transform: translate(0, (3/$df-fs)*$rem);
+//     }
+//     &:-moz-placeholder {
+//         /* Firefox 18- */
+//         font-size: (14/$df-fs)*$rem;
+//         letter-spacing: (0.3/$df-fs)*$rem;
+//     }
+// }
+.toast-container {
+  width: auto;
+
+  .toast-notification {
+    border-radius: 4px;
+    box-shadow: 0 5px 36px 0 rgba(116, 138, 162, 0.4);
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    background-color: var(--pale-grey);
+
+    .content {
+      padding-right: 53px;
+    }
+
+    .img-toast {
+      padding-right: 20px;
+    }
+  }
+
+  .driver-complete-step-wrapper {
+    color: var(--black);
+
+  }
+}
+
+.truncate-overflow {
+  --max-lines: 4;
+  --lh: 12px;
+  position: relative;
+  overflow: hidden;
+  padding-right: 1rem; /* space for ellipsis */
+
+  &:before {
+    position: absolute;
+    content: "...";
+    /* tempting... but shows when lines == content */
+    /* top: calc(var(--lh) * (var(--max-lines) - 1)); */
+
+    /*
+    inset-block-end: 0;
+    inset-inline-end: 0;
+    */
+    bottom: 0;
+    right: 0;
+
+    &:after {
+      content: "";
+      position: absolute;
+      /*
+      inset-inline-end: 0;
+      */
+      right: 0;
+      /* missing bottom on purpose*/
+      width: 1rem;
+      height: 1rem;
+      background: white;
+    }
+  }
+}

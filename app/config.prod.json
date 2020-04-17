@@ -1,0 +1,146 @@
+{
+  "mode": "product",
+  "serverUrl": "https://api.thai-mobility.de/",
+  "facebookAppId": "534708577308738",
+  "googleAPIKey": "AIzaSyAZXd3dup2tc-Hf2ESzU6V9tyJ_bacSftc",
+  "STRIPE_MODE": "sandbox",
+  "STRIPE_SANDBOX_PUBLISHABLE_KEY":
+    "pk_test_cXY5J9O0jz1bPmpoAEQddSBm00XN0RTNLV",
+  "STRIPE_LIVE_PUBLISHABLE_KEY": "pk_live_S2hrNzlwxdvRcn0O5hMU3sul008KOETcHV",
+  "PAYPAL_MODE": "sandbox",
+  "PAYPAL_SANDBOX_CLIENT_ID":
+    "ASW5Cb3SIhWeqUWSZ--GwlUPBdYlyO68YPZMCiAkKRW20HEEp0CZVjUVSbsoty6TgvhX-Ce8KKwdmujR",
+  "PAYPAL_SANDBOX_CLIENT_SECRET":
+    "EFdMRzztSPLLocfljj2q9y2VwykH7iom-mgYDckUKnhpst7Cc5PC5e2ey85YCvuIHff2F6G3r4KkFTLT",
+  "PAYPAL_LIVE_CLIENT_ID": "",
+  "PAYPAL_LIVE_CLIENT_SECRET": "",
+  "fireBase": {
+    "apiKey": "AIzaSyBdInsNpMgqxuRQPiPJ7JZTO7ANosrILpg",
+    "authDomain": "thai-mobility.firebaseapp.com",
+    "databaseURL": "https://thai-mobility.firebaseio.com",
+    "projectId": "thai-mobility",
+    "storageBucket": "thai-mobility.appspot.com",
+    "messagingSenderId": "905572731920",
+    "appId": "1:905572731920:web:05e8b5f0ac4169ec36ce95",
+    "measurementId": "G-L8GVQ5KZ4Q"
+  },
+  "api": {
+    "v1": "api/v1/",
+    "auth": {
+      "currentUser": "api/v1/user/profile",
+      "social": "api/v1/auth",
+      "sign_in": "api/v1/auth/signIn",
+      "sign_up": "api/v1/auth/signUp",
+      "sign_up_as_driver": "api/v1/auth/signUpAsDriver",
+      "log_out": "api/v1/auth/logout",
+      "verify_code": "api/v1/auth/verifyCode",
+      "verify_code_with_token": "api/v1/auth/verifyCodeWithToken",
+      "resend_code": "api/v1/auth/resendCode",
+      "forgot_password": "api/v1/auth/requestResetPassword",
+      "resend_reset_password": "api/v1/auth/resendResetPassword",
+      "reset_password": "api/v1/auth/resetPassword",
+      "change_password": "api/v1/auth/changePassword",
+      "resend_code_update": "api/v1/auth/resendSecurityCodeForUpdate",
+      "verify_code_update": "api/v1/auth/verifySecurityCodeForUpdate",
+      "resend_mail_update": "api/v1/auth/resendEmailConfirmChangeMail",
+      "setup_password": "api/v1/auth/setUpPassword",
+      "verifyUser": "api/v1/auth/verifyUser",
+      "confirmOTP": "api/v1/auth/verifyUser/confirmOTP",
+      "resendOTP": "api/v1/auth/verifyUser/resendOTP",
+      "setup_payment": "api/v1/payment/setup",
+      "setup_bank": "api/v1/company/bank/setup",
+      "setup_license": "api/v1/company/driverLicense/setup",
+      "card_list": "api/v1/payment/card/list",
+      "card_delete": "api/v1/payment/card/",
+      "country_list": "api/v1/auth/country/list",
+      "driverInfo": "api/v1/auth/verifyUser/driverInfo",
+      "driverInfoQuestion": "api/v1/auth/verifyUser/driverInfoQuestion"
+    },
+    "category": {
+      "detail": "api/v1/admin/category",
+      "list": "api/v1/job/category/list"
+    },
+    "subCategory": {
+      "list": "api/v1/job/subCategory/list"
+    },
+    "vehicle": {
+      "list": "api/v1/vehicle/list"
+    },
+    "job": {
+      "new": "api/v1/job",
+      "detail": "api/v1/job",
+      "estimate": "api/v1/job/estimatePrice",
+      "race_course": "api/v1/job/raceCourse/list",
+      "activity": "api/v1/job/activity",
+      "prefixActivity": "job/activity/{id}/",
+      "recommend": "api/v1/job/recommendedRide"
+    },
+    "jobRequest": {
+      "list": "api/v1/jobRequest/list",
+      "detail": "api/v1/jobRequest",
+      "accept": "api/v1/jobRequest/accept"
+    },
+    "customer": {
+      "paymentCreditCard": "api/v1/payment/creditCard/confirm"
+    },
+    "driver": {
+      "license": "api/v1/driverApproval/licenseAndCertification/list",
+      "offer": "api/v1/driver/newOffers",
+      "vehicle": "api/v1/driver/vehicle/list",
+      "put": "api/v1/driver/driverLicense"
+    },
+    "booking": {
+      "current": "api/v1/user/currentBookings",
+      "history": "api/v1/user/historyBookings",
+      "top": "api/v1/vehicle/topBooking"
+    },
+    "drive": {
+      "current": "api/v1/driver/currentDrive",
+      "bidding": "api/v1/driver/biddingDrive/list",
+      "history": "api/v1/driver/historyDrive/list",
+      "offers": "api/v1/driver/newOffers"
+    },
+    "payout": {
+      "country_list": "api/v1/payout/country/list",
+      "state_list": "api/v1/payout/state/list",
+      "city_list": "api/v1/payout/city/list",
+      "account": "api/v1/payout/account",
+      "transaction": "api/v1/payout/bank"
+    },
+    "featuredDestination": {
+      "list": "api/v1/content/featuredDestination/list",
+      "detail": "api/v1/content/featuredDestination"
+    },
+    "blog": {
+      "list": "api/v1/content/blog/list",
+      "detail": "api/v1/content/blog",
+      "relate": "api/v1/content/blog/relatedBlog/list"
+    },
+    "otherPage": {
+      "list": "api/v1/content/otherPage/list",
+      "detail": "api/v1/content/otherPage"
+    },
+    "promotion": {
+      "list": "api/v1/content/availablePromotionCode",
+      "top": "api/v1/content/topPromotion",
+      "detail": "api/v1/content/promotionCode"
+    },
+    "helpRequest": {
+      "new": "api/v1/content/helpMessage"
+    },
+    "notification": {
+      "list": "api/v1/user/notification/list",
+      "read": "api/v1/user/notification/markAtRead",
+      "delete": "api/v1/user/notifications"
+    },
+    "paypal": {
+      "order": "api/v1/payment/paypal/order",
+      "capture": "api/v1/payment/paypal/capture"
+    },
+    "earning": {
+      "statistic": "api/v1/driver/statistic",
+      "transaction": "api/v1/driver/transaction/list",
+      "revenueChart": "api/v1/driver/revenueChart"
+    }
+  }
+}

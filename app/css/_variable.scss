@@ -1,0 +1,22 @@
+/**
+ * _variable.scss
+ *
+ * This is where you should declare all SCSS Variables.
+ */
+@import "color";
+//font-size
+$df-fs: 14;
+$tablet-fs: 18;
+$rem: 1rem;
+$vw: 1vw;
+
+//color
+$color-white: #ffffff;
+$color-black: #000;
+$color-primary: var(--azure);
+$color-pale-grey: #f4f4f6;
+$color-bar: #009af7;
+//font-family
+$font-rbt: 'roboto';
+$font-pridi: 'pridi';
+$font-icon: 'icomoon';

@@ -1,0 +1,53 @@
+/*
+*
+* TotalRatings styles
+*
+*/
+.total-ratings-wrapper {
+  width: 234px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  label {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--black);
+    margin-bottom: 18px;
+  }
+  .rating-wrapper {
+    position: relative;
+    .rating-number {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: var(--black);
+    }
+    .rating-wrapper {
+      margin-bottom: 22.5px;
+      ul.rating {
+        list-style: none;
+        li {
+          span {
+            font-size: 16px;
+            color: #ffc70f;
+            margin-right: 8.3px;
+            &.custom {
+              color: #cfd1d6;
+            }
+          }
+        }
+      }
+    }
+  }
+}

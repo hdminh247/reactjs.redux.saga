@@ -1,0 +1,48 @@
+@import "../../css/variable";
+
+.step-sign-up-wrapper {
+  .processing {
+    padding-bottom: 10px;
+  }
+
+  .form-group-wrapper {
+    .form-group-content {
+      .form-group-title {
+        margin-bottom: 2px;
+      }
+
+      .form-group-children {
+        .footer-submit {
+          border-bottom-left-radius: 4px;
+          border-bottom-right-radius: 4px;
+        }
+
+        .progress-wrapper {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .step-one-wrapper {
+    .footer-submit {
+      margin-top: 162px;
+    }
+  }
+
+  .step-two-wrapper {
+    .resend {
+      margin-top: 162px;
+    }
+
+    .footer-submit {
+      //margin-top: (162/$df-fs)*$rem;
+    }
+  }
+
+  .step-three-wrapper {
+    .footer-submit {
+      margin-top: 162px;
+    }
+  }
+}

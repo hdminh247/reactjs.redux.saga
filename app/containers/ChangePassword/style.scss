@@ -1,0 +1,23 @@
+@import "app/css/variable";
+
+.change-password-wrapper {
+  .input-form-wrapper {
+    margin-bottom: 28px;
+    max-width: 480px;
+  }
+
+  .form-label {
+    font-size: 14px;
+  }
+
+  .btn-orange {
+    margin-top: 22px;
+    max-width: 294px;
+  }
+
+  .icon-append {
+    &.show {
+      color: rgba(0, 0, 0, 0.5) !important;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+export const SECURITY_SEND_CODE = "/SecurityPage/SEND_CODE";
+export const SECURITY_SEND_SUCCESS = "/SecurityPage/SEND_SUCCESS";
+export const SECURITY_SEND_ERROR = "/SecurityPage/SEND_ERROR";
+export const SECURITY_RESEND_CODE = "/SecurityPage/RESEND_CODE";
+export const SECURITY_RESEND_SUCCESS = "/SecurityPage/RESEND_SUCCESS";
+export const SECURITY_RESEND_ERROR = "/SecurityPage/RESEND_ERROR";
+export const SEND_CODE_SETUP_PASSWORD = "/SecurityPage/SEND_CODE_SETUP_PASSWORD";
+export const SET_TOKEN = "/SecurityPage/SET_TOKEN";
+export const CLEAR_ERRORS = "/SecurityPage/CLEAR_ERRORS";

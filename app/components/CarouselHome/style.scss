@@ -1,0 +1,74 @@
+@import "../../css/variable";
+
+.carousel-home-wrapper {
+  .slick-prev:before {
+    content: "\e9d8";
+    font-family: $font-icon;
+    font-size: 30px;
+    color: #303c42;
+  }
+
+  .slick-next:before {
+    content: "\e9d9";
+    font-family: $font-icon;
+    font-size: 30px;
+    color: #303c42;
+  }
+
+  .item {
+    img {
+      width: 100%;
+    }
+  }
+
+  .slick-slider {
+    .description {
+      position: relative;
+
+      img {
+        border-radius: 8px;
+      }
+
+      .text {
+        color: $color-white;
+        position: absolute;
+        top: 50%;
+        left: 29px;
+        transform: translate(0%, -50%);
+
+        .large {
+          font-size: 24px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.5;
+          letter-spacing: normal;
+          color: var(--white);
+        }
+
+        .small {
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.5;
+          letter-spacing: normal;
+          color: var(--white);
+          max-width: 53%;
+        }
+      }
+    }
+  }
+
+  .slide {
+    .carousel-item {
+      img {
+        width: 100%;
+      }
+
+      .item {
+        padding: 11px;
+      }
+    }
+  }
+}

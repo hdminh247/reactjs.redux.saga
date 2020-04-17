@@ -1,0 +1,48 @@
+@import "../../css/variable";
+
+.form-group-wrapper {
+  .progress {
+    height: 5px;
+    margin-bottom: 20px;
+
+    .progress-bar {
+      background-color: var(--bright-orange) !important;
+
+    }
+  }
+
+  .form-group-content {
+    .form-group-title {
+      padding: 0 24px;
+      margin-bottom: 29px;
+      height: auto;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .form-group-children {
+      text-align: left;
+      padding: 0 28px;
+    }
+  }
+
+
+  .form-group-footer,
+  .footer-submit {
+    background-color: var(--pale-grey);
+    margin: 0 -28px;
+    padding: 28px;
+    text-align: center;
+    font-size: 9px;
+    line-height: 1.56;
+    letter-spacing: 1.3px;
+    color: $color-primary;
+    text-transform: uppercase;
+
+    a {
+      cursor: pointer;
+      color: $color-primary;
+      text-decoration: none;
+    }
+  }
+}

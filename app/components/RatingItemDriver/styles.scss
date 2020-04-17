@@ -1,0 +1,23 @@
+/*
+*
+* RatingItemDriver styles
+*
+*/
+.rating-item-driver-wrapper {
+  padding: 13px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--black);
+  border-radius: 5px;
+  background-color: rgba(#f4f4f6, 0.5);
+  margin-bottom: 5px;
+  table-layout: fixed;
+
+  .star {
+    font-size: 16px;
+  }
+}

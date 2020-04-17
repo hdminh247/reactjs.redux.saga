@@ -1,0 +1,49 @@
+@import "../../css/variable";
+
+.success-popup-wrapper {
+  max-width: 500px !important;
+  position: relative;
+
+  .modal-content {
+    border-radius: 6px;
+    overflow: hidden;
+    border: none;
+  }
+
+  .body-wrapper {
+    background-image: url('../../images/web/success-popup.png');
+    background-size: 100%;
+    background-color: $color-white;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 0 (28/$df-fs)*$rem (24/$df-fs)*$rem;
+
+    .title {
+      margin-top: 271px;
+      font-size: 24px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--black);
+    }
+
+    .content {
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 24px;
+
+      .btn-wrapper {
+        padding: 0 (42/$df-fs)*$rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@import "../../css/variable";
+
+.step-one-wrapper {
+  .form-group-wrapper {
+    .form-group-content {
+      .form-group-title {
+        margin-bottom: 5px;
+      }
+      .footer-submit {
+        margin-top: 249px;
+      }
+    }
+  }
+  .progress-title {
+    margin-bottom: 5px;
+  }
+  .progress {
+    margin-bottom: 39.6px;
+  }
+  .form-label {
+    margin-bottom: 6px;
+  }
+  .footer-submit {
+    margin-top: 249px;
+    padding: 31px;
+  }
+  .footer-submit {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .icon-phone {
+    color: var(--azure) !important;
+  }
+}

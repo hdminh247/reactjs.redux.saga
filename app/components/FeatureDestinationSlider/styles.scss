@@ -1,0 +1,43 @@
+@import "../../css/variable";
+
+.img-slider-wrapper {
+  .slick-slide {
+    height: auto; // ← that must not be ignored
+  }
+
+  .slick-track {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+
+  .slick-slider {
+
+    .featured-item-wrapper {
+      padding-left: 12px;
+      padding-right: 12px;
+      color: $color-white;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+
+      img {
+        width: 100%;
+        height: 205px;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .name-destination {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--white);
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+/*
+*
+* OfferYourRide styles
+*
+*/
+@import "../../css/variable";
+
+.offer-your-ride-wrapper {
+
+  .detail {
+    background-image: url('./offer.svg');
+    background-size: 100% auto;
+    background-color: var(--pale-grey);
+    padding-top: 230px;
+
+    .icon {
+      font-size: 20px;
+    }
+
+    .price-limit {
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .price {
+      font-size: 40px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      text-align: center;
+      color: #009af7;
+
+    }
+
+    .form-control, .f-select__control, .input-group-text {
+      background-color: $color-white !important;
+    }
+
+    textarea {
+      margin-bottom: 50px;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+/*
+*
+* RecommendRideItem styles
+*
+*/
+.recommend-ride-item {
+  .bg-grey {
+    padding: 18px 26px;
+  }
+
+  .info-form-wrapper {
+    display: inline-block;
+
+    & + .info-form-wrapper {
+      margin-left: 15px;
+    }
+  }
+
+  .price {
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: right;
+    color: var(--azure);
+  }
+
+  .address-wrapper {
+    margin-bottom: 20px;
+
+    &:last-child {
+      .icon {
+        &:after {
+          display: none;
+        }
+      }
+    }
+
+    .icon {
+      font-size: 18px;
+      margin-right: 15px;
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 25px;
+        border-left: 1px dashed rgba(#979797, 0.4);
+        left: 49%;
+        top: 50%;
+      }
+    }
+  }
+
+  .line-break {
+    height: 1px;
+    background-color: rgba(#979797, 0.12);
+    margin-bottom: 20px;
+  }
+}

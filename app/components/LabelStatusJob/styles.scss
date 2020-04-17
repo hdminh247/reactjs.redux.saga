@@ -1,0 +1,28 @@
+.label-status-job-wrapper {
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+
+  &.color-warning {
+    color: var(--sunflower);
+  }
+
+  &.color-green {
+    color: var(--emerald);;
+  }
+
+
+  .icon {
+    font-size: 18px;
+    margin-right: 7px;
+  }
+
+
+  .label {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+  }
+}

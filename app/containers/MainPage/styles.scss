@@ -1,0 +1,22 @@
+
+.main-page-wrapper {
+  .base-button {
+    margin-top: 119px;
+  }
+
+  .carousel-home-wrapper {
+    color: red;
+
+    .item {
+      .img-fluid {
+        height: 163px;
+      }
+
+      .small {
+        max-height: 48px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

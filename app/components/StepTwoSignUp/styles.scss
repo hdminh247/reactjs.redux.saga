@@ -1,0 +1,47 @@
+@import "../../css/variable";
+.step-two-wrapper {
+  .progress {
+    margin-bottom: 41px;
+  }
+  .message {
+    margin-bottom: 103px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--black);
+  }
+  .code-wrapper {
+    margin-bottom: 162px;
+    .code-input {
+      width: auto !important;
+      margin: (78 / $df-fs) * $rem auto 0;
+      text-align: center;
+    }
+
+    input {
+      margin-right: 12.5px;
+      border: transparent !important;
+      border-radius: 4px;
+      background-color: var(--pale-grey);
+      font-family: inherit !important;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .resend {
+    margin-bottom: 21px;
+    font-weight: bold;
+    .link-route {
+      font-size: 14px;
+    }
+  }
+  .footer-submit {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}

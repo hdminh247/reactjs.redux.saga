@@ -1,0 +1,54 @@
+@import "../../css/variable";
+
+.step-five-wrapper {
+  .form-group-wrapper {
+    .form-group-content  {
+      .form-group-title {
+        margin-bottom: 2px;
+      }
+    }
+  }
+  .progress {
+    margin-bottom: 41.6px;
+  }
+
+  .image-upload {
+    position: relative;
+    background-color: var(--pale-grey);
+    border: 1px dashed var(--bluey-grey);
+    border-radius: 4px;
+    height: 150px;
+    overflow: hidden;
+
+    .label {
+      font-size: 28px;
+      opacity: .1;
+      color: var(--black);;
+      margin: 0;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+
+      &:hover {
+        color: $color-black;
+        opacity: 1;
+      }
+    }
+
+    .license-image {
+      position: relative;
+      height: 100%;
+      text-align: center;
+
+      img {
+        height: 100%;
+        //position: absolute;
+        //left: 50%;
+        //top: 50%;
+        //transform: translate(-50%, -50%);
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "app.components.AccountBankDetail.header":
+    "This is the AccountBankDetail component!",
+  "app.components.BaseButton.header": "This is the BaseButton component !",
+  "app.components.BookingActivities.header":
+    "This is the BookingActivities component!",
+  "app.components.BookingDetailInfo.header":
+    "This is the BookingDetailInfo component!",
+  "app.components.BookingForm.header": "This is the BookingForm component !",
+  "app.components.BookingMap.header": "This is the BookingMap component !",
+  "app.components.CarouselHome.header": "This is the CarouselHome component !",
+  "app.components.DestinationDetailInfo.header":
+    "This is the DestinationDetailInfo component!",
+  "app.components.FeaturedDestinationsItem.header":
+    "This is the FeaturedDestinationsItem component !",
+  "app.components.FeaturedDestinationsSection.header":
+    "This is the FeaturedDestinationsSection component!",
+  "app.components.FormChangeAccountBank.header":
+    "This is the FormChangeAccountBank component!",
+  "app.components.ImgSlider.header": "This is the ImgSlider component !",
+  "app.components.MenuList.header": "This is the MenuList component!",
+  "app.components.MenuProfile.header": "This is the MenuProfile component !",
+  "app.components.OfferYourRide.header": "This is the OfferYourRide component!",
+  "app.components.RatingItemDriver.header":
+    "This is the RatingItemDriver component!",
+  "app.components.SocialLogin.header": "This is the SocialLogin component !",
+  "app.components.StepCompleteSignUp.header":
+    "This is the StepCompleteSignUp component !",
+  "app.components.StepFiveSignUp.header":
+    "This is the StepFiveSignUp component!",
+  "app.components.StepFourSignUp.header":
+    "This is the StepFourSignUp component!",
+  "app.components.StepOneSignUp.header":
+    "This is the StepOneSignUp component !",
+  "app.components.StepSixSignUp.header": "This is the StepSixSignUp component!",
+  "app.components.StepTwoSignUp.header":
+    "This is the StepTwoSignUp component !",
+  "app.components.TopBookingItem.header":
+    "This is the TopBookingItem component !",
+  "app.containers.Auth.header": "This is Auth container !",
+  "app.containers.BiddingDrive.header": "This is the BiddingDrive container!",
+  "app.containers.Blog.header": "This is the Blog container!",
+  "app.containers.BlogDetail.header": "This is the BlogDetail container!",
+  "app.containers.BookingOfferPage.header":
+    "This is BookingOfferPage container !",
+  "app.containers.BookingsDetail.header":
+    "This is the BookingsDetail container!",
+  "app.containers.CarManagement.header": "This is the CarManagement container!",
+  "app.containers.ChangeLocaleLoading.header":
+    "This is the ChangeLocaleLoading container!",
+  "app.containers.ChangeLocaleLoading.loadingTitle": "Changing locale...",
+  "app.containers.ChangePassword.header":
+    "This is the ChangePassword container!",
+  "app.containers.CurrentBookings.header":
+    "This is the CurrentBookings container!",
+  "app.containers.CurrentDrive.header": "This is the CurrentDrive container!",
+  "app.containers.EarningPayout.header": "This is the EarningPayout container!",
+  "app.containers.FeaturedDestinationPage.header":
+    "This is the FeaturedDestinationPage container!",
+  "app.containers.Help.header": "This is the Help container!",
+  "app.containers.HistoryBookings.header":
+    "This is the HistoryBookings container!",
+  "app.containers.HistoryBookingsDetail.header":
+    "This is the HistoryBookingsDetail container!",
+  "app.containers.HistoryDrive.header": "This is the HistoryDrive container!",
+  "app.containers.HomePage.blog": "Blog",
+  "app.containers.HomePage.header": "thai",
+  "app.containers.HomePage.help": "Help",
+  "app.containers.HomePage.promotion": "Promotion",
+  "app.containers.LoginPage.header": "This is LoginPage container !",
+  "app.containers.MainPage.header": "This is MainPage container !",
+  "app.containers.MainPage.inclusiveContent":
+    "Count on all-inclusive rates, confirmed before booking.",
+  "app.containers.MainPage.inclusiveTitle": "All-inclusive pricing",
+  "app.containers.MainPage.rideContent":
+    "Change or cancel for free up until 1 hour prior to pickup.",
+  "app.containers.MainPage.rideTitle": "Ride flexibility",
+  "app.containers.MainPage.seamlessContent":
+    "Relax with 1 hour of complimentary wait time and flight tracking.",
+  "app.containers.MainPage.seamlessTitle": "Seamless airport travel",
+  "app.containers.MyBooking.header": "This is the MyBooking container!",
+  "app.containers.MyDrive.header": "This is the MyDrive container!",
+  "app.containers.NewOffers.header": "This is the NewOffers container!",
+  "app.containers.Notification.header": "This is the Notification container!",
+  "app.containers.OfferDetail.header": "This is the OfferDetail container!",
+  "app.containers.OtherPage.header": "This is the OtherPage container!",
+  "app.containers.Payment.header": "This is the Payment container!",
+  "app.containers.Payout.header": "This is the Payout container!",
+  "app.containers.ProfileInfo.header": "This is the ProfileInfo container!",
+  "app.containers.PromotionDetail.header":
+    "This is the PromotionDetail container!",
+  "app.containers.PromotionList.header": "This is the PromotionList container!",
+  "app.containers.ResetPasswordPage.header":
+    "This is ResetPasswordPage container !",
+  "app.containers.SignUpPage.header": "This is SignUpPage container !",
+  "app.containers.StepSignUp.header": "This is StepSignUp container !",
+  "app.containers.TopBooking.header": "This is the TopBooking container!",
+  "app.containers.UserProfile.header": "This is the UserProfile container!",
+  "boilerplate.components.Footer.author.message": "Made with love by {author}.",
+  "boilerplate.components.Footer.legal": "Legal notice",
+  "boilerplate.components.Footer.license.message":
+    "© 2019 Thai Mobility. All copy rights.",
+  "boilerplate.components.Footer.privacy": "Privacy policy",
+  "boilerplate.components.Footer.terms": "Terms and condition",
+  "boilerplate.components.Header.features": "Features",
+  "boilerplate.components.Header.home": "Home",
+  "boilerplate.components.Header.main": "main",
+  "boilerplate.containers.FeaturePage.css.header": "Features",
+  "boilerplate.containers.FeaturePage.css.message": "Next generation CSS",
+  "boilerplate.containers.FeaturePage.feedback.header": "Instant feedback",
+  "boilerplate.containers.FeaturePage.feedback.message":
+    "Enjoy the best DX and code your app at the speed of thought! Your\n    saved changes to the CSS and JS are reflected instantaneously\n    without refreshing the page. Preserve application state even when\n    you update something in the underlying code!",
+  "boilerplate.containers.FeaturePage.header": "Features",
+  "boilerplate.containers.FeaturePage.internationalization.header":
+    "Complete i18n Standard Internationalization & Pluralization",
+  "boilerplate.containers.FeaturePage.internationalization.message":
+    "Scalable apps need to support multiple languages, easily add and support multiple languages with `react-intl`.",
+  "boilerplate.containers.FeaturePage.javascript.header":
+    "Next generation JavaScript",
+  "boilerplate.containers.FeaturePage.javascript.message":
+    "Use template strings, object destructuring, arrow functions, JSX\n    syntax and more, today.",
+  "boilerplate.containers.FeaturePage.network.header": "Offline-first",
+  "boilerplate.containers.FeaturePage.network.message":
+    "The next frontier in performant web apps: availability without a\n      network connection from the instant your users load the app.",
+  "boilerplate.containers.FeaturePage.routing.header":
+    "Industry-standard routing",
+  "boilerplate.containers.FeaturePage.routing.message":
+    "Write composable CSS that's co-located with your components for\n    complete modularity. Unique generated class names keep the\n    specificity low while eliminating style clashes. Ship only the\n    styles that are on the page for the best performance.",
+  "boilerplate.containers.FeaturePage.scaffolding.header": "Quick scaffolding",
+  "boilerplate.containers.FeaturePage.scaffolding.message":
+    "Automate the creation of components, containers, routes, selectors\n  and sagas - and their tests - right from the CLI!",
+  "boilerplate.containers.FeaturePage.state_management.header":
+    "Predictable state management",
+  "boilerplate.containers.FeaturePage.state_management.message":
+    "Unidirectional data flow allows for change logging and time travel\n    debugging.",
+  "boilerplate.containers.LocaleToggle.de": "de",
+  "boilerplate.containers.LocaleToggle.en": "en",
+  "boilerplate.containers.NotFoundPage.header": "Page not found."
+}

@@ -1,0 +1,224 @@
+@import "../../css/variable";
+
+.input-phone-form-wrapper {
+  .isHidden {
+    display: none;
+  }
+  .disabled {
+    .form-input {
+      .input-form {
+        padding-left: 0px !important;
+      }
+    }
+    .input-group {
+      .input-group-prepend {
+        & + .input-group-prepend {
+          border-right: none;
+          .input-group-text {
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+    .dropdown-toggle-wrapper {
+      margin-left: 0 !important;
+      &:after {
+        display: none;
+      }
+      .country-icon {
+        display: none;
+      }
+      .country-code {
+        margin: 0px !important;
+      }
+    }
+  }
+
+  .dropdown-item:active {
+    background-color: #f8f9fa;
+  }
+
+  .form-control {
+    padding-left: 13px !important;
+  }
+
+  .input-group {
+    .input-group-prepend {
+      &:first-child {
+        .input-group-text {
+          &.error-form {
+            border-right: none;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+          }
+        }
+      }
+
+      & + .input-group-prepend {
+        border-right: 1px solid rgba(122, 122, 123, 0.2);
+
+        .input-group-text {
+          &.error-form {
+            border-right: none;
+            border-left: none;
+          }
+        }
+      }
+    }
+    .btn-group {
+      .input-group-text {
+        .dropdown-toggle-wrapper {
+          margin-left: -15px;
+        }
+      }
+    }
+  }
+
+  .input-group-prepend {
+    .dropdown-toggle {
+      margin-left: 0 !important;
+    }
+
+    .input-group-text {
+      border-radius: 0;
+      text-align: left;
+      background-color: var(--pale-grey);
+      font-size: 20px;
+      border: solid 1px transparent;
+
+      &.icon {
+        font-size: 14px;
+      }
+
+      .blue {
+        color: $color-primary;
+      }
+    }
+
+    .dropdown-toggle-wrapper {
+      vertical-align: middle;
+      line-height: normal;
+
+      &:after {
+        content: "\ea02";
+        font-family: $font-icon;
+        font-size: 10px;
+        margin-left: 10px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      .country {
+        display: inline-block;
+      }
+
+      .country-icon {
+        height: 20px;
+      }
+
+      .country-code {
+        margin-left: 5px;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        color: #212121;
+      }
+    }
+
+    .dropdown-menu {
+      left: -38px !important;
+      top: 10px !important;
+      padding: 0;
+
+      .search-country-code-wrapper {
+        background-color: var(--pale-grey);
+        padding: 10px;
+
+        .input-form-wrapper {
+          margin: 0;
+
+          .input-group {
+            margin-bottom: 0;
+          }
+
+          .input-form {
+            background-color: white;
+            height: 32.5px;
+            margin: 0;
+          }
+
+          .input-group-prepend {
+            .input-group-text {
+              background-color: white;
+
+              .icon-search {
+                color: #7a7a7b;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+
+      .item-country-wrapper {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        vertical-align: middle;
+        padding: 5px;
+        &:last-child {
+          border-bottom: none;
+        }
+        .country-icon {
+          height: 20px;
+          display: inline;
+        }
+
+        .country-name {
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          width: 170px;
+          display: inline-block;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.4;
+          letter-spacing: normal;
+          color: var(--black);
+          margin-left: 10px;
+          vertical-align: middle;
+        }
+
+        .country-code {
+          //display: inline-block;
+          float: right;
+          color: #495057;
+        }
+      }
+
+      .btn-secondary:hover {
+        .dropdown-toggle {
+          background-color: unset;
+        }
+
+        background-color: unset;
+      }
+
+      .btn-secondary {
+        border-color: unset;
+      }
+    }
+
+    .list-country-code-wrapper {
+      max-height: 200px;
+      width: 300px;
+      overflow-y: scroll;
+    }
+
+    .list-country-code-wrapper::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

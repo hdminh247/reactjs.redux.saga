@@ -1,0 +1,63 @@
+/*
+*
+* MenuList styles
+*
+*/
+@import "../../css/variable";
+.menu-list-wrapper {
+  .nav-pills {
+    margin-left: 12px;
+  }
+  .text {
+    position: relative;
+  }
+  .title-menu {
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: var(--black);
+    margin-bottom: 37px;
+  }
+
+  .menu-li {
+    .text::before {
+      content: "\e9db";
+      font-family: $font-icon;
+      font-size: 12px;
+      color: #303c42;
+      display: none;
+      position: absolute;
+      left: -13px;
+      top: -2.5px;
+    }
+    .text {
+      font-size: 12px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+
+    margin-bottom: 23px;
+    .active {
+      .text {
+        color: #009af7;
+      }
+      .text::before {
+        color: #009af7;
+        display: inline;
+      }
+    }
+  }
+  .menu-profile:hover {
+    .text {
+      color: var(--black);
+    }
+  }
+}

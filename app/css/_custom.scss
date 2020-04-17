@@ -1,0 +1,140 @@
+@import "variable";
+
+/**
+ * _custom.scss
+ *
+ * This is where you declare all your global style like: menu, table, form, ...
+ */
+
+//error api in bottom each form
+.errors {
+  background-color: var(--red);
+  padding: (14 / $df-fs) * $rem (16 / $df-fs) * $rem;
+  display: table;
+  width: 100%;
+  color: $color-white;
+  border-radius: (4 / $df-fs) * $rem;
+  margin-bottom: (6 / $df-fs) * $rem;
+
+  [class*="icon-"] {
+    font-size: (14 / $df-fs) * $rem;
+    display: table-cell;
+    width: 1%;
+    vertical-align: middle;
+    padding-right: (20 / $df-fs) * $rem;
+  }
+
+  .error-item {
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+
+    span {
+      font-size: (14 / $df-fs) * $rem;
+    }
+  }
+}
+
+.error-text {
+  width: 100%;
+  padding: 0 (6/$df-fs)*$rem;
+  letter-spacing: (0.3/$df-fs)*$rem;
+  position: relative;
+  margin-top: (4/$df-fs)*$rem;
+  display: table;
+  color: var(--red-pink);
+
+  [class*='icon-'] {
+    font-size: (17/$df-fs)*$rem;
+
+    display: table-cell;
+    vertical-align: top;
+    width: 1%;
+    padding-right: (8/$df-fs)*$rem;
+  }
+
+  span {
+    font-size: (11/$df-fs)*$rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: (0.3/$df-fs)*$rem;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+
+//style for some text be able click, make hover and active style
+.base-link {
+  cursor: pointer;
+
+  &:hover {
+    color: #625a87 !important;
+  }
+
+  &:active {
+    color: #453b70 !important;
+  }
+
+  &.disabled,
+  &:disabled {
+    cursor: not-allowed !important;
+    color: #c8bdea !important;
+  }
+}
+
+// --------- FORMAT FOR TEXT BREAK ----------
+.word-break-all {
+  word-break: break-all;
+}
+
+// ----------------INPUT GROUP---------------
+.input-group {
+  > .input-group-prepend {
+    margin-right: 0;
+
+    > .input-group-text {
+      border-right: none;
+      border-color: var(--light-periwinkle);
+    }
+
+  }
+
+  .input-group-prepend {
+    .form-control {
+      border-left: none !important;
+      border-top-left-radius: 0 !important;
+      border-bottom-left-radius: 0 !important;
+    }
+  }
+}
+
+// ------------------CONTAINER---------------
+.container {
+  @media (min-width: 1300px) {
+    max-width: 1278px;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+// ---------------
+.bg-grey {
+  background-color: var(--pale-grey);
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+
+  /* Required for text-overflow to do anything */
+  //white-space: nowrap;
+  overflow: hidden;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

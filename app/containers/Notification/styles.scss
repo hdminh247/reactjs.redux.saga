@@ -1,0 +1,69 @@
+/*
+*
+* Notification styles
+*
+*/
+.notification-wrapper {
+  padding-top: 40px;
+
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: var(--black);
+  }
+
+  table {
+    .content-wrapper {
+
+      .detail {
+        vertical-align: top;
+        padding-left: 25px;
+
+        .content {
+          font-size: 14px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: var(--black);
+          margin-bottom: 4px;
+        }
+
+        .time {
+          font-size: 12px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: var(--black);
+        }
+      }
+
+      .icon {
+        font-size: 21px;
+      }
+    }
+
+    .actions {
+      .btn {
+        text-decoration: underline;
+        font-weight: normal;
+        padding: 0 10px;
+
+        &-delete {
+          color: var(--bright-orange);
+        }
+
+        &-read {
+          color: #009af7;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import "../../css/variable";
+
+.page-info {
+  letter-spacing: 0.3px;
+  margin-bottom: 27px;
+
+  &.less-margin {
+    margin-bottom: 15px;
+  }
+
+  .note-title {
+    color: #2a2a2c;
+    font-size: 16px;
+  }
+
+  .note-content {
+    margin-top: 10px;
+    color: #212121;
+    font-size: 14px;
+  }
+}
+
+.security-page {
+  .btn-login {
+  }
+}

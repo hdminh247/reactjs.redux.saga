@@ -1,0 +1,20 @@
+.map-booking-wrapper {
+  .overlay-view-label {
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 12px 26px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+    max-width: 180px;
+
+    width: auto;
+    z-index: 10;
+  }
+}

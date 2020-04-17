@@ -1,0 +1,96 @@
+@import "../../css/variable";
+
+.rating-popup-wrapper {
+  max-width: 537 / $df-fs * $rem !important;
+  position: relative;
+
+  .close {
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 0;
+  }
+
+  .modal-header, .modal-body {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--black);
+  }
+
+  .modal-header {
+    border-bottom: none;
+  }
+
+  .modal-footer {
+    border-top: none;
+    background-color: var(--pale-grey);
+    padding: 30px 28px;
+
+    .btn {
+      margin: 0;
+      font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--white);
+    }
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: var(--black);
+    margin-bottom: 54px;
+  }
+
+  .img-wrapper {
+    width: 60px;
+    height: 60px;
+    margin: auto auto 7px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .rating-table {
+    table-layout: fixed;
+  }
+
+  .base-textarea-counter {
+    background-color: rgba(#f4f4f6, 0.5);
+    padding: 13px 20px 4px;
+
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: var(--black);
+    }
+
+    textarea {
+      border-radius: 4px;
+      background-color: var(--pale-grey);
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@import "../../css/variable";
+
+.address-list-wrapper {
+  height: 100%;
+  position: relative;
+  margin-bottom: 20px;
+
+  .btn {
+    &-purple-round {
+      width: auto;
+      margin-bottom: 1.14286rem;
+    }
+  }
+
+  .address-loop {
+    position: relative;
+
+    &.delete {
+      display: none;
+    }
+
+    .btn-delete {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      z-index: 10;
+      font-size: 15px;
+      color: #757575;
+      cursor: pointer;
+    }
+  }
+
+  .address-item-wrapper {
+    width: 100%;
+    border-top: none;
+    padding: 0 !important;
+    border-bottom: none !important;
+  }
+
+
+}

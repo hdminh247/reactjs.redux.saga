@@ -1,0 +1,103 @@
+@import "../../css/variable";
+
+.input-form-wrapper {
+  position: relative;
+  margin-bottom: 16px;
+
+  .form-label {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: var(--black);
+    margin-bottom: 6px;
+  }
+
+  .form-input {
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+
+    .input-form {
+      font-size: 14px;
+      height: 40px;
+      border-radius: 4px;
+      border: solid 1px transparent;
+      letter-spacing: 0.3px;
+      padding-left: 13px;
+      padding-right: 13px;
+      position: relative;
+      background-color: var(--pale-grey);
+
+      &.error-form {
+        border: solid 1px var(--red-pink);
+      }
+
+    }
+
+    .input-group-prepend,
+    .input-group-append {
+      background-color: var(--pale-grey);
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+
+      .input-group-text {
+        background-color: var(--pale-grey);
+        color: var(--azure);
+        font-size: 14px;
+        border: solid 1px transparent;
+
+        .blue {
+          color: $color-primary;
+        }
+
+        &.error-form {
+          border: solid 1px var(--red-pink);
+
+          &:first-child {
+            border-right: none;
+          }
+        }
+      }
+    }
+
+    .icon-append {
+      position: absolute;
+      top: 20px;
+      right: 0;
+      font-size: 16px;
+      transform: translateX(-50%) translateY(-50%);
+      cursor: pointer;
+      z-index: 1049;
+      color: rgba($color-black, 0.5);
+
+      &.show {
+        color: $color-primary;
+      }
+    }
+  }
+
+  &.prepend-label {
+    .input-group-text {
+      border-right: none;
+      color: var(--bluey-grey);
+    }
+
+    .form-control {
+      border-left: none;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      padding-left: 2.5px;
+      background-color: var(--pale-grey);
+
+      &.error-form {
+        border-left: none;
+      }
+    }
+  }
+
+  &.disabled {
+    .input-group-prepend {
+      margin-left: -10.5px;
+    }
+  }
+}

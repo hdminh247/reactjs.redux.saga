@@ -1,0 +1,55 @@
+@import "variable";
+
+.btn {
+  outline: none;
+  font-weight: bold;
+  font-size: 14px;
+
+  &:hover {
+    color: $color-white;
+  }
+
+  &-orange {
+    color: $color-white;
+    background-color: var(--bright-orange);
+
+    &:not([disabled]) {
+      &:hover {
+        background-color: var(--salmon);
+      }
+    }
+  }
+
+  &-primary {
+    color: $color-white;
+    background-color: #009af7;
+
+
+  }
+
+  &-green {
+    color: $color-white;
+    background-color: var(--emerald);
+
+    &:not([disabled]) {
+      &:hover {
+        color: $color-white !important;
+        background-color: var(--hospital-green);
+      }
+    }
+  }
+
+  &-outline-primary {
+    color: var(--azure);
+    border-color: var(--azure);
+  }
+
+  &-cancel {
+    color: rgba($color-black, 0.5);
+  }
+
+  &-secondary {
+    background-color: transparent;
+    color: $color-black;
+  }
+}

@@ -1,0 +1,38 @@
+@import "../../css/variable";
+
+.login-wrapper {
+  .input-form-wrapper {
+    .form-input {
+      .input-form {
+        padding-right: 35px;
+      }
+    }
+  }
+
+  .forgot-password {
+    margin-top: 43px;
+
+    .link-route {
+      float: right;
+      margin-bottom: 45px;
+    }
+  }
+
+  .sign-up {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 39px;
+
+    .link-route {
+      font-size: 14px;
+    }
+  }
+
+  .form-group-wrapper {
+    .form-group-footer {
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+  }
+}

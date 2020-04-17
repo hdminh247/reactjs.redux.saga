@@ -1,0 +1,33 @@
+@import "../../css/variable";
+
+.step-six-wrapper {
+  .question {
+    &-list {
+
+    }
+
+    &-item {
+      border-right: 0;
+      border-left: 0;
+
+      &:first-child {
+        border-top: none;
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .content {
+
+      }
+
+      .base-checkbox-circle {
+        display: inline-block;
+
+        & + .base-checkbox-circle {
+          margin-left: 24px;
+        }
+      }
+    }
+  }
+}

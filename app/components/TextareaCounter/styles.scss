@@ -1,0 +1,102 @@
+@import "../../css/variable";
+
+.base-textarea-counter {
+  position: relative;
+
+  div.title {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: var(--black);
+    margin-bottom: 6px;
+  }
+
+  .text-area-wrapper {
+    position: relative;
+
+    &.error-form {
+      .input-group-prepend {
+        border: solid 1px #f65659;
+        border-right: none;
+      }
+    }
+
+    &.prepend {
+      textarea {
+        padding-left: 0;
+      }
+    }
+  }
+
+  .input-group-text {
+    border: none;
+    padding-top: 18px;
+
+    &.error-form {
+      border: transparent !important;
+    }
+  }
+
+  textarea {
+    background-color: #fafafa;
+    width: 100%;
+    min-width: 144px;
+    font-size: 14px;
+    padding: 14px 13px;
+    resize: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    height: auto !important;
+
+    &:focus,
+    &:active {
+      background-color: #fafafa;
+    }
+
+    &.error-form {
+      border: solid 1px #f65659;
+    }
+  }
+
+  .counter {
+    font-size: 9px;
+    color: #757575;
+    line-height: 1.56;
+    letter-spacing: 1.3px;
+    padding: 1px 9.5px;
+    position: absolute;
+    right: 8px;
+    bottom: 9px;
+    background-color: #eeeeee;
+    border-radius: 4px;
+  }
+
+  .error-text {
+    width: 100%;
+    padding: 0 6px;
+    letter-spacing: 0.3px;
+    position: relative;
+    margin-top: 4px;
+    display: table;
+
+    [class*="icon-"] {
+      font-size: 17px;
+      color: #f65b58;
+      display: table-cell;
+      vertical-align: top;
+      width: 1%;
+      padding-right: 8px;
+    }
+
+    span {
+      font-size: 11px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.45;
+      letter-spacing: 0.3px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+}

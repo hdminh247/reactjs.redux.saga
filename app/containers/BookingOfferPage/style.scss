@@ -1,0 +1,19 @@
+@import "../../css/variable";
+
+.booking-offer-wrapper {
+  position: relative;
+
+  .map-booking-wrapper {
+    margin-bottom: 48px;
+    margin-left: 518px;
+  }
+
+  .booking-form-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 518px;
+    max-height: 903px;
+  }
+}

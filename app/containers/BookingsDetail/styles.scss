@@ -1,0 +1,33 @@
+.bookings-detail-wrapper {
+
+  .line-break {
+    height: 1px;
+    background-color: var(--light-periwinkle);
+    margin-bottom: 15px;
+  }
+
+  .section-top {
+    margin-bottom: 25px;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .detail {
+    padding: 25px 30px;
+    min-height: 400px;
+  }
+}
+
+.modal-change-payment-popup-wrapper {
+  .modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--black);
+  }
+}

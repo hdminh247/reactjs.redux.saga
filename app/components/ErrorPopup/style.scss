@@ -1,0 +1,46 @@
+@import "../../css/variable";
+
+.popup-error-wrapper {
+  font-family: $font-rbt;
+  max-width: 400px !important;
+  margin: auto !important;
+
+  .modal-content {
+    background-image: url("../../images/web/bg-error-popup.svg");
+    background-size: 100% auto;
+    padding-top: 250px;
+    text-align: center;
+  }
+
+  .popup-contain {
+    .popup-title {
+      font-size: 24px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--black);
+    }
+
+    .popup-content {
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.5);
+      word-break: break-word;
+      margin-bottom: 22px;
+    }
+
+    .btn-popup {
+      &:last-child {
+        margin-left: (20 / $df-fs) * $rem;
+      }
+    }
+  }
+}

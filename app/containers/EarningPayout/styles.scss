@@ -1,0 +1,199 @@
+/*
+*
+* EarningPayout styles
+*
+*/
+.earning-payout-wrapper {
+  padding-top: 32px;
+  margin-bottom: 80px;
+
+  .chart {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 24px;
+
+    canvas {
+      margin: auto;
+      max-width: 100%;
+    }
+
+    .selection-wrapper {
+      & + .selection-wrapper {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .form-control,
+  .input-group-text,
+  .f-select__control {
+    background-color: var(--white) !important;
+  }
+
+  .left-upper {
+    padding: 40px;
+  }
+
+  .statistic {
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgba(#979797, 0.2);
+
+    .category {
+      & + .category {
+        margin-left: 56px;
+      }
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .value {
+      font-size: 40px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      color: #009af7;
+    }
+  }
+
+  .right {
+    background-color: var(--pale-grey);
+
+    .img-top {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+
+    .bank {
+      padding: 0 30px 23px;
+    }
+
+    .total-balance {
+      padding-bottom: 4px;
+      border-bottom: solid 1px rgba(#979797, 0.2);
+      margin-bottom: 20px;
+
+      .label {
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      .value {
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        color: #009af7;
+      }
+    }
+
+    .edit-account {
+      margin-bottom: 103px;
+    }
+  }
+}
+
+.confirm-payout-wrapper {
+  &.confirm-popup-wrapper {
+    .modal-body {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .modal-content {
+      background-image: url("../../images/web/bg-payment.png");
+    }
+
+    .d-flex {
+      display: block !important;
+    }
+
+    .amount {
+      margin-bottom: 20px;
+
+      .price {
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        color: #009af7;
+      }
+    }
+
+    .account-bank-detail {
+      font-size: 16px;
+
+      .title {
+        margin-bottom: 5px;
+      }
+
+      .info-form-wrapper {
+        &:last-child {
+          margin-bottom: 27px;
+        }
+      }
+    }
+
+    .line-break {
+      margin-bottom: 10px !important;
+    }
+
+    .term {
+      font-size: 12px;
+    }
+
+    .title-popup,
+    .account-bank-detail .account-bank-title {
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .line-break {
+      height: 1px;
+      width: 100%;
+      background-color: rgba(#979797, 0.2);
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.payout-success-wrapper {
+  .body-wrapper {
+    background-image: url("../../images/web/bg-payment.png") !important;
+
+    .title {
+      margin-bottom: 5px;
+    }
+
+    .base-button {
+      .btn-orange {
+        background-color: #009764;
+      }
+    }
+  }
+}

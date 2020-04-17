@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- The first thing in any HTML file should be the charset -->
+  <meta charset="utf-8">
+
+  <!-- Make the page mobile compatible -->
+  <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi, viewport-fit=cover"/>
+
+  <!-- Allow installing the app to the homescreen -->
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- iOS home screen icons -->
+  <meta name="apple-mobile-web-app-title" content="Fixle">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+  <!-- <link rel="manifest" href="./manifest.json"> -->
+  <link rel="icon" href="./favicon.ico"/>
+
+  <title>Thai Mobility</title>
+
+  <!--DO NOT remove this import, this is needed for cordova app-->
+  <!--<script type="text/javascript" src="./cordova.js"></script>-->
+  <script type="text/javascript"
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZXd3dup2tc-Hf2ESzU6V9tyJ_bacSftc&libraries=places"></script>
+  <script src="https://js.stripe.com/v3/"></script>
+  <script
+    src="https://www.paypal.com/sdk/js?client-id=ASW5Cb3SIhWeqUWSZ--GwlUPBdYlyO68YPZMCiAkKRW20HEEp0CZVjUVSbsoty6TgvhX-Ce8KKwdmujR&disable-funding=credit,card"></script>
+  <script>
+    //Activities hyperlink
+    function hyperlink(link) {
+      window.location.href = window.location.origin + window.location.pathname + "#" + link;
+    }
+  </script>
+
+  <script>
+    // For browser that doesnt support canvas.toBlob method
+    if (!HTMLCanvasElement.prototype.toBlob) {
+      Object.defineProperty(HTMLCanvasElement.prototype, "toBlob", {
+        value: function(callback, type, quality) {
+          var canvas = this;
+          setTimeout(function() {
+
+            var binStr = atob(canvas.toDataURL(type, quality).split(",")[1]),
+              len = binStr.length,
+              arr = new Uint8Array(len);
+
+            for (var i = 0; i < len; i++) {
+              arr[i] = binStr.charCodeAt(i);
+            }
+
+            callback(new Blob([arr], { type: type || "image/png" }));
+
+          });
+        }
+      });
+    }
+  </script>
+
+  <script>
+    var db = null;
+    var fileTransfer = null;
+    var socketInstance = null;
+    var firebaseAppAuth = null;
+  </script>
+
+  <!-- <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: "a19a60bb-c400-44cf-a2c2-6e2025ff15bd",
+      });
+    });
+  </script>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: "a19a60bb-c400-44cf-a2c2-6e2025ff15bd",
+      });
+    });
+  </script> -->
+</head>
+
+<body>
+<!-- Display a message if JS has been disabled on the browser. -->
+<noscript>If you're seeing this message, that means
+  <strong>JavaScript has been disabled on your browser</strong>, please
+  <strong>enable JS</strong> to make this app work.
+</noscript>
+
+<!-- The app hooks into this div -->
+<div id="app"></div>
+<!-- Open Sans Font -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<!-- A lot of magic happens in this file. HtmlWebpackPlugin automatically includes all assets (e.g. bundle.js, main.css) with the correct HTML tags, which is why they are missing in this HTML file. Don't add any assets here! (Check out the webpack config files in internals/webpack for details) -->
+</body>
+
+</html>

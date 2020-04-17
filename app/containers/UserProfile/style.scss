@@ -1,0 +1,122 @@
+@import "../../css/variable";
+
+.confirm-phonenumber-modal {
+  .modal-body {
+    padding: 0;
+
+    .form-group-wrapper {
+      .form-group-content {
+        .form-group-title {
+          padding: 0 29px;
+        }
+
+        .form-group-children {
+          padding: 0 29px;
+        }
+      }
+    }
+  }
+
+  .btn-close {
+    position: absolute;
+    opacity: 0.5;
+    color: #79797a;
+    right: 34px;
+    top: 34px;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .footer-submit {
+    padding: 30px;
+  }
+
+  .btn-submit {
+    margin: 0;
+  }
+
+  .form-group-title {
+    padding-top: 20px !important;
+    margin-bottom: 17px !important;
+  }
+
+  .link-route {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: var(--azure);
+  }
+}
+
+.user-profile-wrapper {
+  .text {
+    position: relative;
+  }
+
+  .title-profile {
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: var(--black);
+    margin-bottom: 37px;
+  }
+
+  .menu-profile {
+    .text::before {
+      content: "\e9db";
+      font-family: $font-icon;
+      font-size: 12px;
+      color: #303c42;
+      display: none;
+      position: absolute;
+      left: -13px;
+      top: -2.5px;
+    }
+
+    .text {
+      font-size: 12px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+
+    margin-bottom: 23px;
+
+    .active {
+      .text {
+        color: #009af7;
+      }
+
+      .text::before {
+        color: #009af7;
+        display: inline;
+      }
+    }
+  }
+
+  .menu-profile:hover {
+    .text {
+      color: var(--black);
+    }
+  }
+
+  margin-bottom: 70px;
+  margin-top: 78px;
+}
+
+.forgot-password-modal {
+  .modal-content {
+    width: 510px;
+  }
+}

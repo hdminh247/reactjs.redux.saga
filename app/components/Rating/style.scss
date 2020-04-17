@@ -1,0 +1,14 @@
+.rating-wrapper {
+  ul.rating {
+    list-style: none;
+    li {
+
+      span {
+        color: #EFA544;
+        &.custom {
+          color: #dedede;
+        }
+      }
+    }
+  }
+}

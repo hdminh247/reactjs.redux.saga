@@ -1,0 +1,78 @@
+@import "../../css/variable";
+
+.login-popup-wrapper {
+  max-width: 1036 / $df-fs * $rem !important;
+  background-size: 100% auto;
+  position: relative;
+  .forgot-password {
+    .link-route {
+      font-size: 12px !important;
+      color: var(--azure);
+    }
+  }
+  .sign-up {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+    .link-route {
+      font-size: 14px !important;
+      color: var(--azure);
+    }
+  }
+  .modal-content {
+    border-radius: 4px;
+    border: none;
+    overflow: hidden;
+  }
+
+  .close {
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .authenticate-wrapper {
+    background-image: url("../../images/web/signup-form.jpg");
+    background-size: 100% 100%;
+    padding: 0;
+    min-height: 0;
+    .left-wrapper {
+      padding-top: 118 / $df-fs * $rem;
+      padding-left: 46 / $df-fs * $rem;
+      .title {
+        font-size: 36px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: var(--white);
+      }
+    }
+
+    .right-wrapper {
+      width: 537 / $df-fs * $rem;
+      border-radius: 0;
+      .form-group-wrapper {
+        .form-group-content {
+          .form-group-title {
+            margin-top: 37px;
+            margin-bottom: 39px;
+          }
+          .forgot-password {
+            margin-top: 43px;
+            .link-route {
+              margin-bottom: 109px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

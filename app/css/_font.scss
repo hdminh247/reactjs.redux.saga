@@ -1,0 +1,46 @@
+/**
+ * _font.scss
+ *
+ * This is where you declare all your fonts with @font-face syntax.
+ */
+@font-face {
+  font-family: $font-rbt;
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-rbt;
+  src: url('../fonts/Roboto/Roboto-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-rbt;
+  src: url('../fonts/Roboto/Roboto-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-pridi;
+  src: url('../fonts/Pridi/Pridi-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-pridi;
+  src: url('../fonts/Pridi/Pridi-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-pridi;
+  src: url('../fonts/Pridi/Pridi-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}

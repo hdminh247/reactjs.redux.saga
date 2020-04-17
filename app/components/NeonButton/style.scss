@@ -1,0 +1,36 @@
+@import 'app/css/variable';
+
+.btn-neon {
+  min-width: 112px;
+  height: 32px;
+  border: 1px solid #917bd5;
+  border-radius: 4px;
+
+  font-size: 10px;
+  line-height: 3.2;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  color: #917bd5;
+  text-align: center;
+
+  &.disabled {
+    color: #757575;
+    border: 1px solid #757575;
+
+    &:hover {
+      background-color: inherit;
+    }
+
+    &:active {
+      background-color: inherit;
+    }
+  }
+
+  &:hover {
+    background-color: #eeeeee;
+  }
+
+  &:active {
+    background-color: #e0e0e0;
+  }
+}
