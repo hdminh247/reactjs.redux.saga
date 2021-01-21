@@ -180,7 +180,7 @@
     "history": "4.9.0",
     "hoist-non-react-statics": "2.5.5",
     "humanize-duration": "^3.21.0",
-    "immer": "^3.2.0",
+    "immer": "^8.0.1",
     "immutable": "3.8.2",
     "intl": "1.2.5",
     "invariant": "2.2.4",
